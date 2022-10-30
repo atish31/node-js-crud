@@ -1,5 +1,6 @@
 const http = require('http');
-const host = 'localhost';
+// const host = 'localhost';
+const host = "https://shrouded-brushlands-46360.herokuapp.com";
 const port = 8000;
 
 const requestListener = function(req, res) {
@@ -8,7 +9,7 @@ const requestListener = function(req, res) {
 };
 
 const server = http.createServer(requestListener);
-server.listen(port, host, () => {
+server.listen(host, () => {
   console.log(`port: ${port}`);
   console.log(`host: ${host}`);
 })
