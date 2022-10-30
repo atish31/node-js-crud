@@ -1,0 +1,23 @@
+{
+  "name": "js-crud",
+  "version": "1.0.0",
+  "description": "Crud Code examples with node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atish31/node-js-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atish31/node-js-crud/issues"
+  },
+  "homepage": "https://github.com/atish31/node-js-crud#readme",
+  "engines" : {
+    "node": "18.8.0"
+  }
+}
